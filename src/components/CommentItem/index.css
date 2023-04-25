@@ -1,0 +1,123 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+.display-comment-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-top: 15px;
+  list-style-type: none;
+}
+
+.details-container {
+  display: flex;
+}
+
+.like-delete-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.initial-container {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  border-radius: 15px;
+}
+
+.initial {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.name-time-container {
+  display: flex;
+}
+
+.username {
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin: 0px;
+  padding: 0px;
+  margin-right: 20px;
+}
+
+.comment {
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+
+.post-time {
+  padding: 0px;
+  margin: 0px;
+  font-size: 10px;
+}
+
+.button {
+  background-color: transparent;
+  color: #7e858e;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.active {
+  color: #0ea5e9;
+}
+
+.like-container {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .display-comment-container {
+    width: 100%;
+  }
+  .username {
+    font-size: 20px;
+  }
+
+  .post-time {
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .comment {
+    font-size: 14px;
+  }
+}

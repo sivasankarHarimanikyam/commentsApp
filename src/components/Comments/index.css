@@ -1,0 +1,160 @@
+/* Write your CSS here */
+.comments-bg-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+}
+
+.comments-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 550px;
+}
+
+.input-comments-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  order: 1;
+  width: 80%;
+}
+
+.head-image {
+  order: 0;
+  width: 250px;
+  height: 200px;
+  text-align: center;
+}
+
+.main-heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 48px;
+  margin-bottom: 12px;
+}
+
+.input-heading {
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #475569;
+}
+
+.user-name {
+  margin-bottom: 10px;
+  padding: 5px 10px 5px 10px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  background-color: transparent;
+  border: 2px solid #94a3b8;
+  border-radius: 5px;
+  outline: none;
+}
+
+.user-comment {
+  height: 100px;
+  margin-bottom: 10px;
+  padding: 5px 10px 5px 10px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  background-color: transparent;
+  border: 2px solid #94a3b8;
+  border-radius: 5px;
+  outline: none;
+}
+
+.add-button {
+  width: 120px;
+  height: 30px;
+  background-color: #0284c7;
+  color: #ffffff;
+  font-family: 'Roboto';
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.h-line {
+  border: 1px solid #dee0e3;
+  width: 100%;
+  margin-top: 16px;
+}
+
+.display-comments-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 0px;
+}
+
+.comments-count-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 10px;
+  width: 250px;
+}
+
+.comments-count {
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-family: 'Roboto';
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  margin-right: 5px;
+}
+
+.comments-tag {
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+
+@media screen and (min-width: 768px) {
+  .comments-bg-container {
+    margin-top: 96px;
+  }
+
+  .comments-container {
+    width: 80%;
+    max-width: 1140px;
+  }
+
+  .input-comments-container {
+    flex-direction: row;
+  }
+
+  .comments-count-container {
+    width: 700px;
+  }
+
+  .input-container {
+    order: 0;
+    width: 440px;
+    margin-right: 60px;
+  }
+
+  .head-image {
+    order: 1;
+    width: 350px;
+    height: 250px;
+  }
+
+  .main-heading {
+    font-size: 56px;
+    margin-top: 0px;
+    margin-bottom: 24px;
+  }
+}
